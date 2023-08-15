@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Luzzi - Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!-- BOTON PARA SUBIR -->
+    <div id="botonArriba">
+        <a href="#"><i class="bi bi-arrow-up-circle"></i></a>
+    </div>
+
+
+    <!-- HEADER -->
+    <div class='headerContainer'>
+        
+        <div class='headerContainer_Nombre'>
+            <a href='#'>< Luca /></a>
+        </div>
+
+        <nav class='headerContainer_Links'>
+            <i class="bi bi-list hamburger"></i>
+            <a href="#inicio">Inicio</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </div>
+
+
+    <!-- MENU DESPLEGABLE -->
+    <div class="menuDesplegableContainer">
+      <div class="menuDesplegableContainer_close">
+        <i id="closeIcon" class="bi bi-x-lg"></i>
+      </div>
+
+      <nav class='menuDesplegableContainer_Links'>
+        <a href="#inicio">Inicio</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+
+
+    <!-- INICIO -->
+    <div id='inicio' class='inicioContainer'>
+        
+        <div class="inicioContainer_Links">
+            <!-- <BsLinkedin size='30' color='#0e4188' /> -->
+            <!-- <BsInstagram size='30' color='#0e4188' /> -->
+            <!-- <BsGithub size='30' color='#0e4188' /> -->
+            <a href="https://www.linkedin.com/in/luca-luzzi/" target="_blank" class="linkedinLink"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/luzziluca6/" target="_blank" class="instagramLink"><i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/LucaLuzzi-03" target="_blank" class="githubLink"><i class="bi bi-github"></i></a>
+        </div>
+
+        <div class="inicioContainer_Info">
+            <h3>Bienvenido/a!</h3>
+            <h1>Yo soy <span style='color: #0e4188'>Luca Luzzi</span></h1>
+            <p>Programador web <strong>fullstack</strong> listo para trabajar con ustedes en busca de soluciones web más optimizadas, funcionales y escalables</p>
+            <a href="./Luca-Luzzi.pdf" download>
+                <button>Descargar CV</button>
+            </a>
+        </div>
+
+        <div class="inicioContainer_Foto">
+            <img src='./assets/foto-portafolio.png' alt="Foto de perfil personal" />
+        </div>
+
+    </div>
+
+
+    <!-- HABILIDADES -->
+    <!-- <div id="habilidades" class="habilidadesContainer">
+
+        <h2 class="habilidadesTitle">Mis Habilidades</h2>
+
+        <div class="skills">
+            <div class="soft-skills">
+                <h3>Blandas</h3>
+                <ul>
+                    <li>- Trabajo en equipo</li>
+                    <li>- Comunicación efectiva</li>
+                    <li>- Creatividad</li>
+                    <li>- Resolución de problemas</li>
+                    <li>- Empatía</li>
+                    <li>- Adaptabilidad</li>
+                    <li>- Pensamiento lógico</li>
+                    <li>- Metodología ágil (SCRUM)</li>
+                </ul>
+            </div>
+            <div class="hard-skills">
+                <h3>Duras</h3>
+                <ul>
+                    <li>- Desarrollo web (HTML, CSS, JavaScript, Typescript, React, Node) - intermedio</li>
+                    <li>- Programación en .NET & .NET Web (C#) - intermedio</li>
+                    <li>- Manejo de bases de datos (SQL, MySql) - básico</li>
+                    <li>- Gestión de proyectos (Jira, Trello, Github) - intermedio</li>
+                    <li>- Versionado (Git) - intermedio</li>
+                    <li>➖  Metodología ágil (SCRUM)</li>
+                </ul>
+            </div>
+        </div>
+
+    </div> -->
+
+    <!-- HABILIDADES NUEVO DISEÑO -->
+    <div id="habilidades" class="habilidadesAnimacion">
+        <div class="habilidadesGeneralesTitle">
+            <h2>Mis habilidades</h2>
+        </div>
+        <div class="habilidadesGenerales">
+
+            <div class="softSkills_container">
+                <img src="./assets/competencias.svg" width="600" alt="competencias">
+                <div class="softSkills_container-lista">
+                    <h3>Blandas</h3>
+                    <ul>
+                        <li>➖  Trabajo en equipo</li>
+                        <li>➖  Comunicación efectiva</li>
+                        <li>➖  Creatividad</li>
+                        <li>➖  Resolución de problemas</li>
+                        <li>➖  Empatía</li>
+                        <li>➖  Adaptabilidad</li>
+                        <li>➖  Pensamiento lógico</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="hardSkills_container">
+                <div class="hardSkills_container-lista">
+                    <h3>Duras</h3>
+                    <ul>
+                        <li>➖  Desarrollo web (HTML, CSS, JavaScript, Typescript, React, Node) - intermedio</li>
+                        <li>➖  Programación en .NET & .NET Web (C#) - intermedio</li>
+                        <li>➖  Manejo de bases de datos (SQL, MySql) - básico</li>
+                        <li>➖  Gestión de proyectos (Jira, Trello, Github) - intermedio</li>
+                        <li>➖  Versionado (Git) - intermedio</li>
+                        <li>➖  Metodología ágil (SCRUM)</li>
+                    </ul>
+                </div>
+                <img src="./assets/undraw_feeling_proud_qne1.svg" width="600" alt="habilidadesTecnicas">
+            </div>
+    
+        </div>
+    </div>
+
+
+
+    <!-- PROYECTOS -->
+    <div id='proyectos' class='proyectosContainer'>
+        
+        <div class='proyectosContainer_Title'>
+            <h2>Proyectos</h2>
+        </div>
+
+        <div class='proyectosContainer_cardContainer'>
+
+            <div class='card'>
+                <div class='card_img'>
+                    <img src="./assets/hoobank.png" alt="Hoobank app image" />
+                </div>
+
+                <div class='card_info'>
+                    <h3>Hoobank</h3>
+                    <p>Una landing page de un gestor de pagos virtual realizado con ReactJs y TailwindCSS.</p>
+                    <a href="https://hoobank-ll.netlify.app/" target="_blank">Ver mas</a>
+                </div>
+            </div>
+
+            <div class='card'>
+                <div class='card_img'>
+                    <img src="./assets/gpt3.png" alt="GPT3 app image" />
+                </div>
+
+                <div class='card_info'>
+                    <h3>GPT3</h3>
+                    <p>Una landing page que enseña el poder del GPT3 IA realizado con ReactJs y TailwindCSS. </p>
+                    <a href="https://gpt3ll-app.netlify.app/" target="_blank">Ver mas</a>
+                </div>
+            </div>
+
+            <div class='card'>
+                <div class='card_img'>
+                    <img src="./assets/GeríchtApp.png" alt="Gericht app image" />
+                </div>
+
+                <div class='card_info'>
+                    <h3>Gericht</h3>
+                    <p>Una landing page de un restaurante realizado con ReactJs.</p>
+                    <a href="https://gerichtapp.netlify.app/" target="_blank">Ver mas</a>
+                </div>
+            </div>
+
+            <div class='card'>
+                <div class='card_img'>
+                    <img src="./assets/GifExpertApp_2.png" alt="GifExpertApp app image" />
+                </div>
+
+                <div class='card_info'>
+                    <h3>Hoobank</h3>
+                    <p>Es una aplicacion web en donde puedes buscar GIFS de todo tipo realizado con ReactJs.</p>
+                    <a href="https://lucaluzzi-03.github.io/React-Ts-GifExpertApp/" target="_blank">Ver mas</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- CONTACTO -->
+    <div id='contacto' class='contactoContainer'>
+
+        <div class="contactoContainer_title">
+            <h2>Contacto</h2>
+        </div>
+
+        <form class='contactoContainer_form'>
+            <div class='contactoContainer_form-input'>
+                <label htmlFor="nombre">Nombre</label>
+                <input 
+                    autoComplete='off' 
+                    type="text" 
+                    name='nombre' 
+                    id='nombre' 
+                    placeholder='nombre' 
+                    required
+                    minlength="3"
+                />
+            </div>
+
+            <div class='contactoContainer_form-input'>
+                <label htmlFor="email">Email</label>
+                <input 
+                    autoComplete='off' 
+                    type="email" 
+                    name='email' 
+                    id='email' 
+                    placeholder='email'
+                    required  
+                    />
+            </div>
+
+            <div class='contactoContainer_form-input'>
+                <label htmlFor="mensaje">Mensaje</label>
+                <input 
+                    autoComplete='off' 
+                    type="text" 
+                    name='mensaje' 
+                    id='mensaje' 
+                    placeholder='mensaje' 
+                    required
+                    minlength="4"
+                />
+            </div>
+
+            <div class='contactoContainer_form-btn'>
+                <button type='submit'>Enviar</button>
+            </div>
+        </form>
+        <span id="mensajeForm">El mensaje ha sido enviado correctamente!</span>
+
+    </div>
+
+</body>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+const closeIcon = document.getElementById('closeIcon');
+const menuDesplegable = document.querySelector('.menuDesplegableContainer');
+const header = document.querySelector('.headerContainer');
+const hamburgerMenu = document.querySelector('.headerContainer_Links .hamburger');
+const linksMenuDesplegable = document.querySelectorAll('.menuDesplegableContainer_Links a');
+
+const form = document.querySelector('.contactoContainer_form');
+const mensajeForm = document.getElementById('mensajeForm');
+
+ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+});
+
+ScrollReveal().reveal('.inicioContainer_Info h3', { delay: 200 });
+ScrollReveal().reveal('.inicioContainer_Info h1', { delay: 300 });
+ScrollReveal().reveal('.inicioContainer_Info p', { delay: 500 });
+ScrollReveal().reveal('.inicioContainer_Info button', { delay: 800 });
+ScrollReveal().reveal('.inicioContainer_Links a', { delay: 600, interval: 200 });
+ScrollReveal().reveal('.inicioContainer_Foto', { delay: 800 });
+
+ScrollReveal().reveal('.habilidadesAnimacion', { delay: 400 });
+// ScrollReveal().reveal('.habilidadesTitle', { delay: 400 });
+// ScrollReveal().reveal('.skills', { delay: 500 });
+
+ScrollReveal().reveal('.proyectosContainer', { delay: 500 });
+// ScrollReveal().reveal('.proyectosContainer_Title', { delay: 300 });
+
+ScrollReveal().reveal('.contactoContainer', { delay: 500 });
+// ScrollReveal().reveal('.contactoContainer_form', { delay: 500 });
+
+
+linksMenuDesplegable.forEach(x => {
+  x.addEventListener('click', () => {
+    header.style.position = 'static';
+    menuDesplegable.style.display = 'none';
+  });
+});
+
+closeIcon.addEventListener('click', () => {
+  // hamburgerMenu.style.display = 'flex';
+  header.style.position = 'static';
+  menuDesplegable.style.display = 'none';
+});
+
+hamburgerMenu.addEventListener('click', () => {
+  header.style.position = 'absolute';
+  menuDesplegable.style.display = 'flex';
+  // hamburgerMenu.style.display = 'none';
+});
+
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const nombre = document.getElementById('nombre').value;
+  const email = document.getElementById('email').value;
+  const mensaje = document.getElementById('mensaje').value;
+  
+  emailjs.send('service_mkwzhud', 'template_ywqj8jo', {
+            from_name: nombre,
+            to_name: "Luca Luzzi",
+            from_email: email,
+            message: mensaje,
+            reply_to: "Muchas gracias por el interes en contactarme, te respondere en la brevedad. Saludos!"
+        }, 'TfylKNYAdinsOU4NK')
+        .then((response) => {
+            console.log('Correo electrónico enviado:', response.text);
+          }, (error) => {
+            console.error('Error al enviar el correo electrónico:', error);
+          });
+
+    
+  mensajeForm.style.animation = 'aparecer 1s ease-out forwards';
+  setTimeout(() => {
+    mensajeForm.style.animation = 'desaparecer 1s ease-out forwards';
+  }, 3000);
+  form.reset();
+});
+</script>
+</html>
